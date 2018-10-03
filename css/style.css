@@ -1,0 +1,308 @@
+@charset "UTF-8";
+html {
+font-size: 62.5%
+}
+body {
+color: #333;
+font-size: 1.2rem;
+font-family: "Hiragino Kaku Gothic ProN", "Ohmega Sans", Meiryo, sans-serif;
+}
+*, *::before, *::after {
+box-sizing: border-box;
+}
+a:link, a:visited, a:hover, a:active {
+color: #d03c56;
+text-decoration: none;
+}
+.clearfix::after {
+display: block;
+clear: both;
+content: "";
+}
+
+
+header {
+  height: 75px;
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 3px 6px gray;
+  z-index: 1000;
+}
+.container {
+  margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 49px;
+  height: 24px;
+  margin-top: 25px;
+  float: left;
+}
+.bigcat-img {
+  width: 100%;
+}
+
+.header-right {
+  float: right;
+  margin-top: 27px;
+  margin-bottom: 29px;
+}
+.header-right li {
+  float: left;
+  width: 36px;
+  height: 18px;
+  font-size: 18px;
+  margin-right: 48px;
+}
+
+.wagahai-text {  
+  background-color: white;
+}
+
+.wagahai-text h1 {
+  font-size: 40px;
+  float: left;
+  margin-top: 99.5px;
+  margin-bottom: 100px;
+}
+
+.wagahai-text p {
+  font-size: 24px;
+  margin-bottom: 100px;
+  float: left;
+  line-height: 45px;
+}
+
+.waga1 {
+  width: 510px;
+  height: 159px;
+}
+
+.waga2 {
+  width: 840px;
+  height: 69px;
+}
+.waga3 {
+  width: 768px;
+  height: 114px;
+}
+
+.cat-1 {
+  margin-top: 883px;
+  height: 1440px;
+  background-color: #FCF6F2;
+  overflow: hidden;
+}
+
+.cat-1 h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.boxies {
+  padding-top: 0;
+}
+.box img{
+  width: 450px;
+  height: 300px;
+}
+
+.box p{
+  width: 450px;
+  height: 300px;
+}
+
+.img1{
+  float: left;
+  padding:100px 79px 100px 0;
+}
+
+.txt1 {
+  float: right;
+  font-size: 20px;
+  line-height: 30px;
+  padding:100px 0 100px 0;
+}
+
+.txt2 {
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  padding:0 79px 100px 0;
+}
+
+.img2{
+  float: right;
+  padding:0 0 100px 0;
+}
+
+.img3{
+  float: left;
+  padding:0 79px 0 0;
+}
+
+.txt3 {
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 0 0 0;
+}
+
+
+.cat-2 {
+  overflow: hidden;
+}
+.cat-2 h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.img4 {
+  float: left;
+  padding:100px 79px 25px 0;
+}
+
+.img5 {
+  float: right;
+  padding:100px 0 25px 0;
+}
+
+.txt4 p {
+  float: left;
+  font-size: 16px;
+  line-height: 27px;
+  width: 450px;
+  height: auto;
+  padding: 25px 79px 114px 0;
+}
+
+.txt5 p {
+  float: right;
+  font-size: 16px;
+  line-height: 27px;
+  width: 450px;
+  height: auto;
+  padding: 25px 0 114px 0;
+}
+
+.rest-cat {
+  height: 950px;
+  background-image: url(rest-cat-2x.png);
+  background-size: cover;
+}
+
+.rest-cat-sq {
+  width: 600px;
+  height: 600px;
+  float: right;
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  border: 1px solid #707070;
+  opacity: 0.5;
+  z-index: 5;
+}
+
+.rest-cat-txt {
+  width: 450px;
+  height: 450px;
+  margin: 85px 75px 65px 75px;
+}
+
+.rest-cat-txt p {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.cat-3 h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 112px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead td {
+  border-top:1px solid #777777;
+  border-bottom:1px solid #777777;
+  padding: 13px 14px;
+  font-size: 16px;
+}
+
+.new {
+  border: 1px solid #AD2727;
+  color: #AD2727;
+  text-align: center;
+  padding: 5px 26px;
+}
+
+.bottom-wrapper {
+  margin-top: 117px;
+  height: 368px;
+  background-color: #8E8E8E;
+  color: #FFFFFF;
+}
+
+.master-boxies {
+  margin-top: 100px;
+  float: left;
+  overflow: hidden;
+}
+
+.master-boxies h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #FFFFFF;
+  width: 300px;
+}
+
+.master-box1 {
+  float: left;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.master-box2 {
+  float: left;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.master-box3 {
+  float: right;
+  width: 300px;
+}
+.master-boxies p {
+  padding-top: 29px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  height: 60px;
+  background-color: #6A6A6A;
+  border: 1px solid #707070;
+  color: #FFFFFF;
+}
+
+.footer-left {
+  float: left;
+  padding-top: 15px;
+}
+
+.footer-left img {
+  width: 49px;
+  height: 24px;
+}
+
+.footer-right {
+  font-size: 12px;
+  float: right;
+  padding-top: 24px;
+}
